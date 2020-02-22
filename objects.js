@@ -5,5 +5,5 @@ function updatePlaylis(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle
 }
 function updatePlaylis(playlist, artistName) {
-
+  delete playlist[artistName]
 }
